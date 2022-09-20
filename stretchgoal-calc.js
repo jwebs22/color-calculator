@@ -3,10 +3,8 @@ const prompt = require('prompt-sync')({sigint: true});
 console.log("Enter a single color to deconstruct it.");
 console.log("Choose from: Purple, Orange, or Green.");
 console.log("OR you can Enter two colors to combine them. Seperate with a space, for example: Blue Red");
-console.log("Choose from: Red, Blue, or Yellow.");
+console.log("Choose 2 different colors from: Red, Blue, or Yellow.");
 let action = prompt(">");
-
-console.log(action);
 
 if (action === "Purple")
 {
